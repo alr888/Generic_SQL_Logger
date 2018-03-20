@@ -1,0 +1,505 @@
+[20-04-2017 13:59:58] [INFO] - This is info : mkyong
+[20-04-2017 13:59:58] [WARN] - This is warn : mkyong
+[20-04-2017 13:59:58] [ERROR] - This is error : mkyong
+[20-04-2017 13:59:58] [FATAL] - This is fatal : mkyong
+[20-04-2017 14:06:40] [INFO] - This is info : mkyong
+[20-04-2017 14:06:40] [WARN] - This is warn : mkyong
+[20-04-2017 14:06:40] [ERROR] - This is error : mkyong
+[20-04-2017 14:06:40] [FATAL] - This is fatal : mkyong
+[20-04-2017 14:07:28] [INFO] - This is info : mkyong
+[20-04-2017 14:07:28] [WARN] - This is warn : mkyong
+[20-04-2017 14:07:28] [ERROR] - This is error : mkyong
+[20-04-2017 14:07:28] [FATAL] - This is fatal : mkyong
+[20-04-2017 14:09:02] [ERROR] - Sorry SQL error, something wrong!
+java.sql.SQLException: ORA-00060: deadlock detected while waiting for resource
+
+	at oracle.jdbc.driver.DatabaseError.throwSqlException(DatabaseError.java:113)
+	at oracle.jdbc.driver.T4CTTIoer.processError(T4CTTIoer.java:331)
+	at oracle.jdbc.driver.T4CTTIoer.processError(T4CTTIoer.java:288)
+	at oracle.jdbc.driver.T4C8Oall.receive(T4C8Oall.java:754)
+	at oracle.jdbc.driver.T4CStatement.doOall8(T4CStatement.java:210)
+	at oracle.jdbc.driver.T4CStatement.executeForRows(T4CStatement.java:963)
+	at oracle.jdbc.driver.OracleStatement.doExecuteWithTimeout(OracleStatement.java:1192)
+	at oracle.jdbc.driver.OracleStatement.executeUpdateInternal(OracleStatement.java:1662)
+	at oracle.jdbc.driver.OracleStatement.executeUpdate(OracleStatement.java:1631)
+	at EIPSDRLogger.main(EIPSDRLogger.java:80)
+[20-04-2017 14:09:11] [ERROR] - Sorry SQL error, something wrong!
+java.sql.SQLException: ORA-00060: deadlock detected while waiting for resource
+
+	at oracle.jdbc.driver.DatabaseError.throwSqlException(DatabaseError.java:113)
+	at oracle.jdbc.driver.T4CTTIoer.processError(T4CTTIoer.java:331)
+	at oracle.jdbc.driver.T4CTTIoer.processError(T4CTTIoer.java:288)
+	at oracle.jdbc.driver.T4C8Oall.receive(T4C8Oall.java:754)
+	at oracle.jdbc.driver.T4CStatement.doOall8(T4CStatement.java:210)
+	at oracle.jdbc.driver.T4CStatement.executeForRows(T4CStatement.java:963)
+	at oracle.jdbc.driver.OracleStatement.doExecuteWithTimeout(OracleStatement.java:1192)
+	at oracle.jdbc.driver.OracleStatement.executeUpdateInternal(OracleStatement.java:1662)
+	at oracle.jdbc.driver.OracleStatement.executeUpdate(OracleStatement.java:1631)
+	at EIPSDRLogger.main(EIPSDRLogger.java:88)
+[20-04-2017 14:09:14] [ERROR] - Sorry SQL error, something wrong!
+java.sql.SQLException: ORA-00060: deadlock detected while waiting for resource
+
+	at oracle.jdbc.driver.DatabaseError.throwSqlException(DatabaseError.java:113)
+	at oracle.jdbc.driver.T4CTTIoer.processError(T4CTTIoer.java:331)
+	at oracle.jdbc.driver.T4CTTIoer.processError(T4CTTIoer.java:288)
+	at oracle.jdbc.driver.T4C8Oall.receive(T4C8Oall.java:754)
+	at oracle.jdbc.driver.T4CStatement.doOall8(T4CStatement.java:210)
+	at oracle.jdbc.driver.T4CStatement.executeForRows(T4CStatement.java:963)
+	at oracle.jdbc.driver.OracleStatement.doExecuteWithTimeout(OracleStatement.java:1192)
+	at oracle.jdbc.driver.OracleStatement.executeUpdateInternal(OracleStatement.java:1662)
+	at oracle.jdbc.driver.OracleStatement.executeUpdate(OracleStatement.java:1631)
+	at EIPSDRLogger.main(EIPSDRLogger.java:88)
+[20-04-2017 14:10:20] [INFO] - This is info : mkyong
+[20-04-2017 14:10:20] [WARN] - This is warn : mkyong
+[20-04-2017 14:10:20] [ERROR] - This is error : mkyong
+[20-04-2017 14:10:20] [FATAL] - This is fatal : mkyong
+[20-04-2017 14:10:20] [ERROR] - Sorry SQL error, something wrong!
+java.sql.SQLException: ORA-00984: column not allowed here
+
+	at oracle.jdbc.driver.DatabaseError.throwSqlException(DatabaseError.java:113)
+	at oracle.jdbc.driver.T4CTTIoer.processError(T4CTTIoer.java:331)
+	at oracle.jdbc.driver.T4CTTIoer.processError(T4CTTIoer.java:288)
+	at oracle.jdbc.driver.T4C8Oall.receive(T4C8Oall.java:754)
+	at oracle.jdbc.driver.T4CStatement.doOall8(T4CStatement.java:210)
+	at oracle.jdbc.driver.T4CStatement.executeForRows(T4CStatement.java:963)
+	at oracle.jdbc.driver.OracleStatement.doExecuteWithTimeout(OracleStatement.java:1192)
+	at oracle.jdbc.driver.OracleStatement.executeUpdateInternal(OracleStatement.java:1662)
+	at oracle.jdbc.driver.OracleStatement.executeUpdate(OracleStatement.java:1631)
+	at EIPSDRLogger.main(EIPSDRLogger.java:88)
+[20-04-2017 14:11:09] [INFO] - This is info : mkyong
+[20-04-2017 14:11:09] [WARN] - This is warn : mkyong
+[20-04-2017 14:11:09] [ERROR] - This is error : mkyong
+[20-04-2017 14:11:09] [FATAL] - This is fatal : mkyong
+[20-04-2017 14:30:35] [INFO] - This is info : mkyong
+[20-04-2017 14:30:35] [WARN] - This is warn : mkyong
+[20-04-2017 14:30:35] [ERROR] - This is error : mkyong
+[20-04-2017 14:30:35] [FATAL] - This is fatal : mkyong
+[20-04-2017 14:31:28] [INFO] - This is info : mkyong
+[20-04-2017 14:31:28] [WARN] - This is warn : mkyong
+[20-04-2017 14:31:28] [ERROR] - This is error : mkyong
+[20-04-2017 14:31:28] [FATAL] - This is fatal : mkyong
+[20-04-2017 14:32:26] [INFO] - This is info : mkyong
+[20-04-2017 14:32:26] [WARN] - This is warn : mkyong
+[20-04-2017 14:32:26] [ERROR] - This is error : mkyong
+[20-04-2017 14:32:26] [FATAL] - This is fatal : mkyong
+[20-04-2017 14:32:26] [ERROR] - Sorry SQL error, something wrong!
+java.sql.SQLException: ORA-01756: quoted string not properly terminated
+
+	at oracle.jdbc.driver.DatabaseError.throwSqlException(DatabaseError.java:113)
+	at oracle.jdbc.driver.T4CTTIoer.processError(T4CTTIoer.java:331)
+	at oracle.jdbc.driver.T4CTTIoer.processError(T4CTTIoer.java:288)
+	at oracle.jdbc.driver.T4C8Oall.receive(T4C8Oall.java:754)
+	at oracle.jdbc.driver.T4CStatement.doOall8(T4CStatement.java:210)
+	at oracle.jdbc.driver.T4CStatement.executeForRows(T4CStatement.java:963)
+	at oracle.jdbc.driver.OracleStatement.doExecuteWithTimeout(OracleStatement.java:1192)
+	at oracle.jdbc.driver.OracleStatement.executeUpdateInternal(OracleStatement.java:1662)
+	at oracle.jdbc.driver.OracleStatement.executeUpdate(OracleStatement.java:1631)
+	at EIPSDRLogger.main(EIPSDRLogger.java:88)
+[20-04-2017 14:33:01] [INFO] - This is info : mkyong
+[20-04-2017 14:33:01] [WARN] - This is warn : mkyong
+[20-04-2017 14:33:01] [ERROR] - This is error : mkyong
+[20-04-2017 14:33:01] [FATAL] - This is fatal : mkyong
+[20-04-2017 14:34:14] [INFO] - This is info : mkyong
+[20-04-2017 14:34:14] [WARN] - This is warn : mkyong
+[20-04-2017 14:34:14] [ERROR] - This is error : mkyong
+[20-04-2017 14:34:14] [FATAL] - This is fatal : mkyong
+[20-04-2017 14:35:39] [INFO] - This is info : mkyong
+[20-04-2017 14:35:39] [WARN] - This is warn : mkyong
+[20-04-2017 14:35:39] [ERROR] - This is error : mkyong
+[20-04-2017 14:35:39] [FATAL] - This is fatal : mkyong
+[20-04-2017 14:35:39] [ERROR] - Sorry SQL error, something wrong!
+java.sql.SQLException: ORA-00933: SQL command not properly ended
+
+	at oracle.jdbc.driver.DatabaseError.throwSqlException(DatabaseError.java:113)
+	at oracle.jdbc.driver.T4CTTIoer.processError(T4CTTIoer.java:331)
+	at oracle.jdbc.driver.T4CTTIoer.processError(T4CTTIoer.java:288)
+	at oracle.jdbc.driver.T4C8Oall.receive(T4C8Oall.java:754)
+	at oracle.jdbc.driver.T4CStatement.doOall8(T4CStatement.java:210)
+	at oracle.jdbc.driver.T4CStatement.executeForRows(T4CStatement.java:963)
+	at oracle.jdbc.driver.OracleStatement.doExecuteWithTimeout(OracleStatement.java:1192)
+	at oracle.jdbc.driver.OracleStatement.executeUpdateInternal(OracleStatement.java:1662)
+	at oracle.jdbc.driver.OracleStatement.executeUpdate(OracleStatement.java:1631)
+	at EIPSDRLogger.main(EIPSDRLogger.java:88)
+[20-04-2017 14:36:22] [INFO] - This is info : mkyong
+[20-04-2017 14:36:22] [WARN] - This is warn : mkyong
+[20-04-2017 14:36:22] [ERROR] - This is error : mkyong
+[20-04-2017 14:36:22] [FATAL] - This is fatal : mkyong
+[20-04-2017 14:38:03] [INFO] - This is info : mkyong
+[20-04-2017 14:38:03] [WARN] - This is warn : mkyong
+[20-04-2017 14:38:03] [ERROR] - This is error : mkyong
+[20-04-2017 14:38:03] [FATAL] - This is fatal : mkyong
+[20-04-2017 16:17:14] [INFO] - This is info : mkyong
+[20-04-2017 16:17:14] [WARN] - This is warn : mkyong
+[20-04-2017 16:17:14] [ERROR] - This is error : mkyong
+[20-04-2017 16:17:14] [FATAL] - This is fatal : mkyong
+[20-04-2017 16:17:14] [ERROR] - Sorry SQL error, something wrong!
+java.sql.SQLException: ORA-28040: No matching authentication protocol
+
+	at oracle.jdbc.driver.DatabaseError.throwSqlException(DatabaseError.java:113)
+	at oracle.jdbc.driver.T4CTTIoer.processError(T4CTTIoer.java:331)
+	at oracle.jdbc.driver.T4CTTIoer.processError(T4CTTIoer.java:283)
+	at oracle.jdbc.driver.T4CTTIoer.processError(T4CTTIoer.java:278)
+	at oracle.jdbc.driver.T4CTTIoauthenticate.receiveOsesskey(T4CTTIoauthenticate.java:295)
+	at oracle.jdbc.driver.T4CConnection.logon(T4CConnection.java:359)
+	at oracle.jdbc.driver.PhysicalConnection.<init>(PhysicalConnection.java:454)
+	at oracle.jdbc.driver.T4CConnection.<init>(T4CConnection.java:165)
+	at oracle.jdbc.driver.T4CDriverExtension.getConnection(T4CDriverExtension.java:35)
+	at oracle.jdbc.driver.OracleDriver.connect(OracleDriver.java:802)
+	at java.sql.DriverManager.getConnection(Unknown Source)
+	at java.sql.DriverManager.getConnection(Unknown Source)
+	at EIPSDRLogger.main(EIPSDRLogger.java:71)
+[20-04-2017 16:17:46] [INFO] - This is info : mkyong
+[20-04-2017 16:17:46] [WARN] - This is warn : mkyong
+[20-04-2017 16:17:46] [ERROR] - This is error : mkyong
+[20-04-2017 16:17:46] [FATAL] - This is fatal : mkyong
+[20-04-2017 16:17:46] [ERROR] - Sorry SQL error, something wrong!
+java.sql.SQLException: ORA-28040: No matching authentication protocol
+
+	at oracle.jdbc.driver.DatabaseError.throwSqlException(DatabaseError.java:113)
+	at oracle.jdbc.driver.T4CTTIoer.processError(T4CTTIoer.java:331)
+	at oracle.jdbc.driver.T4CTTIoer.processError(T4CTTIoer.java:283)
+	at oracle.jdbc.driver.T4CTTIoer.processError(T4CTTIoer.java:278)
+	at oracle.jdbc.driver.T4CTTIoauthenticate.receiveOsesskey(T4CTTIoauthenticate.java:295)
+	at oracle.jdbc.driver.T4CConnection.logon(T4CConnection.java:359)
+	at oracle.jdbc.driver.PhysicalConnection.<init>(PhysicalConnection.java:454)
+	at oracle.jdbc.driver.T4CConnection.<init>(T4CConnection.java:165)
+	at oracle.jdbc.driver.T4CDriverExtension.getConnection(T4CDriverExtension.java:35)
+	at oracle.jdbc.driver.OracleDriver.connect(OracleDriver.java:802)
+	at java.sql.DriverManager.getConnection(Unknown Source)
+	at java.sql.DriverManager.getConnection(Unknown Source)
+	at EIPSDRLogger.main(EIPSDRLogger.java:71)
+[20-04-2017 16:18:23] [INFO] - This is info : mkyong
+[20-04-2017 16:18:23] [WARN] - This is warn : mkyong
+[20-04-2017 16:18:23] [ERROR] - This is error : mkyong
+[20-04-2017 16:18:23] [FATAL] - This is fatal : mkyong
+[20-04-2017 16:18:23] [ERROR] - Sorry SQL error, something wrong!
+java.sql.SQLException: Listener refused the connection with the following error:
+ORA-12505, TNS:listener does not currently know of SID given in connect descriptor
+
+	at oracle.jdbc.driver.DatabaseError.throwSqlException(DatabaseError.java:113)
+	at oracle.jdbc.driver.DatabaseError.throwSqlException(DatabaseError.java:263)
+	at oracle.jdbc.driver.T4CConnection.logon(T4CConnection.java:389)
+	at oracle.jdbc.driver.PhysicalConnection.<init>(PhysicalConnection.java:454)
+	at oracle.jdbc.driver.T4CConnection.<init>(T4CConnection.java:165)
+	at oracle.jdbc.driver.T4CDriverExtension.getConnection(T4CDriverExtension.java:35)
+	at oracle.jdbc.driver.OracleDriver.connect(OracleDriver.java:802)
+	at java.sql.DriverManager.getConnection(Unknown Source)
+	at java.sql.DriverManager.getConnection(Unknown Source)
+	at EIPSDRLogger.main(EIPSDRLogger.java:71)
+[20-04-2017 16:23:09] [INFO] - This is info : mkyong
+[20-04-2017 16:23:09] [WARN] - This is warn : mkyong
+[20-04-2017 16:23:09] [ERROR] - This is error : mkyong
+[20-04-2017 16:23:09] [FATAL] - This is fatal : mkyong
+[20-04-2017 16:23:09] [ERROR] - Sorry SQL error, something wrong!
+java.sql.SQLException: ORA-28040: No matching authentication protocol
+
+	at oracle.jdbc.driver.DatabaseError.throwSqlException(DatabaseError.java:113)
+	at oracle.jdbc.driver.T4CTTIoer.processError(T4CTTIoer.java:331)
+	at oracle.jdbc.driver.T4CTTIoer.processError(T4CTTIoer.java:283)
+	at oracle.jdbc.driver.T4CTTIoer.processError(T4CTTIoer.java:278)
+	at oracle.jdbc.driver.T4CTTIoauthenticate.receiveOsesskey(T4CTTIoauthenticate.java:295)
+	at oracle.jdbc.driver.T4CConnection.logon(T4CConnection.java:359)
+	at oracle.jdbc.driver.PhysicalConnection.<init>(PhysicalConnection.java:454)
+	at oracle.jdbc.driver.T4CConnection.<init>(T4CConnection.java:165)
+	at oracle.jdbc.driver.T4CDriverExtension.getConnection(T4CDriverExtension.java:35)
+	at oracle.jdbc.driver.OracleDriver.connect(OracleDriver.java:802)
+	at java.sql.DriverManager.getConnection(Unknown Source)
+	at java.sql.DriverManager.getConnection(Unknown Source)
+	at EIPSDRLogger.main(EIPSDRLogger.java:71)
+[20-04-2017 16:32:33] [INFO] - This is info : mkyong
+[20-04-2017 16:32:33] [WARN] - This is warn : mkyong
+[20-04-2017 16:32:33] [ERROR] - This is error : mkyong
+[20-04-2017 16:32:33] [FATAL] - This is fatal : mkyong
+[20-04-2017 16:32:35] [ERROR] - Sorry SQL error, something wrong!
+java.sql.SQLSyntaxErrorException: ORA-00917: missing comma
+
+	at oracle.jdbc.driver.T4CTTIoer.processError(T4CTTIoer.java:450)
+	at oracle.jdbc.driver.T4CTTIoer.processError(T4CTTIoer.java:399)
+	at oracle.jdbc.driver.T4C8Oall.processError(T4C8Oall.java:1059)
+	at oracle.jdbc.driver.T4CTTIfun.receive(T4CTTIfun.java:522)
+	at oracle.jdbc.driver.T4CTTIfun.doRPC(T4CTTIfun.java:257)
+	at oracle.jdbc.driver.T4C8Oall.doOALL(T4C8Oall.java:587)
+	at oracle.jdbc.driver.T4CStatement.doOall8(T4CStatement.java:210)
+	at oracle.jdbc.driver.T4CStatement.doOall8(T4CStatement.java:30)
+	at oracle.jdbc.driver.T4CStatement.executeForRows(T4CStatement.java:931)
+	at oracle.jdbc.driver.OracleStatement.doExecuteWithTimeout(OracleStatement.java:1150)
+	at oracle.jdbc.driver.OracleStatement.executeUpdateInternal(OracleStatement.java:1707)
+	at oracle.jdbc.driver.OracleStatement.executeUpdate(OracleStatement.java:1670)
+	at oracle.jdbc.driver.OracleStatementWrapper.executeUpdate(OracleStatementWrapper.java:310)
+	at EIPSDRLogger.main(EIPSDRLogger.java:88)
+[20-04-2017 16:33:21] [INFO] - This is info : mkyong
+[20-04-2017 16:33:21] [WARN] - This is warn : mkyong
+[20-04-2017 16:33:21] [ERROR] - This is error : mkyong
+[20-04-2017 16:33:21] [FATAL] - This is fatal : mkyong
+[20-04-2017 16:33:23] [ERROR] - Sorry SQL error, something wrong!
+java.sql.SQLSyntaxErrorException: ORA-00947: not enough values
+
+	at oracle.jdbc.driver.T4CTTIoer.processError(T4CTTIoer.java:450)
+	at oracle.jdbc.driver.T4CTTIoer.processError(T4CTTIoer.java:399)
+	at oracle.jdbc.driver.T4C8Oall.processError(T4C8Oall.java:1059)
+	at oracle.jdbc.driver.T4CTTIfun.receive(T4CTTIfun.java:522)
+	at oracle.jdbc.driver.T4CTTIfun.doRPC(T4CTTIfun.java:257)
+	at oracle.jdbc.driver.T4C8Oall.doOALL(T4C8Oall.java:587)
+	at oracle.jdbc.driver.T4CStatement.doOall8(T4CStatement.java:210)
+	at oracle.jdbc.driver.T4CStatement.doOall8(T4CStatement.java:30)
+	at oracle.jdbc.driver.T4CStatement.executeForRows(T4CStatement.java:931)
+	at oracle.jdbc.driver.OracleStatement.doExecuteWithTimeout(OracleStatement.java:1150)
+	at oracle.jdbc.driver.OracleStatement.executeUpdateInternal(OracleStatement.java:1707)
+	at oracle.jdbc.driver.OracleStatement.executeUpdate(OracleStatement.java:1670)
+	at oracle.jdbc.driver.OracleStatementWrapper.executeUpdate(OracleStatementWrapper.java:310)
+	at EIPSDRLogger.main(EIPSDRLogger.java:88)
+[20-04-2017 16:33:47] [INFO] - This is info : mkyong
+[20-04-2017 16:33:47] [WARN] - This is warn : mkyong
+[20-04-2017 16:33:47] [ERROR] - This is error : mkyong
+[20-04-2017 16:33:47] [FATAL] - This is fatal : mkyong
+[20-04-2017 16:33:49] [ERROR] - Sorry SQL error, something wrong!
+java.sql.SQLSyntaxErrorException: ORA-00947: not enough values
+
+	at oracle.jdbc.driver.T4CTTIoer.processError(T4CTTIoer.java:450)
+	at oracle.jdbc.driver.T4CTTIoer.processError(T4CTTIoer.java:399)
+	at oracle.jdbc.driver.T4C8Oall.processError(T4C8Oall.java:1059)
+	at oracle.jdbc.driver.T4CTTIfun.receive(T4CTTIfun.java:522)
+	at oracle.jdbc.driver.T4CTTIfun.doRPC(T4CTTIfun.java:257)
+	at oracle.jdbc.driver.T4C8Oall.doOALL(T4C8Oall.java:587)
+	at oracle.jdbc.driver.T4CStatement.doOall8(T4CStatement.java:210)
+	at oracle.jdbc.driver.T4CStatement.doOall8(T4CStatement.java:30)
+	at oracle.jdbc.driver.T4CStatement.executeForRows(T4CStatement.java:931)
+	at oracle.jdbc.driver.OracleStatement.doExecuteWithTimeout(OracleStatement.java:1150)
+	at oracle.jdbc.driver.OracleStatement.executeUpdateInternal(OracleStatement.java:1707)
+	at oracle.jdbc.driver.OracleStatement.executeUpdate(OracleStatement.java:1670)
+	at oracle.jdbc.driver.OracleStatementWrapper.executeUpdate(OracleStatementWrapper.java:310)
+	at EIPSDRLogger.main(EIPSDRLogger.java:88)
+[20-04-2017 16:41:38] [INFO] - This is info : mkyong
+[20-04-2017 16:41:38] [WARN] - This is warn : mkyong
+[20-04-2017 16:41:38] [ERROR] - This is error : mkyong
+[20-04-2017 16:41:38] [FATAL] - This is fatal : mkyong
+[20-04-2017 16:41:39] [ERROR] - Sorry SQL error, something wrong!
+java.sql.SQLDataException: ORA-01843: not a valid month
+
+	at oracle.jdbc.driver.T4CTTIoer.processError(T4CTTIoer.java:450)
+	at oracle.jdbc.driver.T4CTTIoer.processError(T4CTTIoer.java:399)
+	at oracle.jdbc.driver.T4C8Oall.processError(T4C8Oall.java:1059)
+	at oracle.jdbc.driver.T4CTTIfun.receive(T4CTTIfun.java:522)
+	at oracle.jdbc.driver.T4CTTIfun.doRPC(T4CTTIfun.java:257)
+	at oracle.jdbc.driver.T4C8Oall.doOALL(T4C8Oall.java:587)
+	at oracle.jdbc.driver.T4CStatement.doOall8(T4CStatement.java:210)
+	at oracle.jdbc.driver.T4CStatement.doOall8(T4CStatement.java:30)
+	at oracle.jdbc.driver.T4CStatement.executeForRows(T4CStatement.java:931)
+	at oracle.jdbc.driver.OracleStatement.doExecuteWithTimeout(OracleStatement.java:1150)
+	at oracle.jdbc.driver.OracleStatement.executeUpdateInternal(OracleStatement.java:1707)
+	at oracle.jdbc.driver.OracleStatement.executeUpdate(OracleStatement.java:1670)
+	at oracle.jdbc.driver.OracleStatementWrapper.executeUpdate(OracleStatementWrapper.java:310)
+	at EIPSDRLogger.main(EIPSDRLogger.java:88)
+[20-04-2017 16:42:50] [INFO] - This is info : mkyong
+[20-04-2017 16:42:50] [WARN] - This is warn : mkyong
+[20-04-2017 16:42:50] [ERROR] - This is error : mkyong
+[20-04-2017 16:42:50] [FATAL] - This is fatal : mkyong
+[20-04-2017 16:42:51] [ERROR] - Sorry SQL error, something wrong!
+java.sql.SQLDataException: ORA-01843: not a valid month
+
+	at oracle.jdbc.driver.T4CTTIoer.processError(T4CTTIoer.java:450)
+	at oracle.jdbc.driver.T4CTTIoer.processError(T4CTTIoer.java:399)
+	at oracle.jdbc.driver.T4C8Oall.processError(T4C8Oall.java:1059)
+	at oracle.jdbc.driver.T4CTTIfun.receive(T4CTTIfun.java:522)
+	at oracle.jdbc.driver.T4CTTIfun.doRPC(T4CTTIfun.java:257)
+	at oracle.jdbc.driver.T4C8Oall.doOALL(T4C8Oall.java:587)
+	at oracle.jdbc.driver.T4CStatement.doOall8(T4CStatement.java:210)
+	at oracle.jdbc.driver.T4CStatement.doOall8(T4CStatement.java:30)
+	at oracle.jdbc.driver.T4CStatement.executeForRows(T4CStatement.java:931)
+	at oracle.jdbc.driver.OracleStatement.doExecuteWithTimeout(OracleStatement.java:1150)
+	at oracle.jdbc.driver.OracleStatement.executeUpdateInternal(OracleStatement.java:1707)
+	at oracle.jdbc.driver.OracleStatement.executeUpdate(OracleStatement.java:1670)
+	at oracle.jdbc.driver.OracleStatementWrapper.executeUpdate(OracleStatementWrapper.java:310)
+	at EIPSDRLogger.main(EIPSDRLogger.java:88)
+[20-04-2017 21:33:09] [INFO] - This is info : mkyong
+[20-04-2017 21:33:09] [WARN] - This is warn : mkyong
+[20-04-2017 21:33:09] [ERROR] - This is error : mkyong
+[20-04-2017 21:33:09] [FATAL] - This is fatal : mkyong
+[20-04-2017 21:33:09] [ERROR] - Sorry SQL error, something wrong!
+java.sql.SQLException: ORA-28040: No matching authentication protocol
+
+	at oracle.jdbc.driver.DatabaseError.throwSqlException(DatabaseError.java:113)
+	at oracle.jdbc.driver.T4CTTIoer.processError(T4CTTIoer.java:331)
+	at oracle.jdbc.driver.T4CTTIoer.processError(T4CTTIoer.java:283)
+	at oracle.jdbc.driver.T4CTTIoer.processError(T4CTTIoer.java:278)
+	at oracle.jdbc.driver.T4CTTIoauthenticate.receiveOsesskey(T4CTTIoauthenticate.java:295)
+	at oracle.jdbc.driver.T4CConnection.logon(T4CConnection.java:359)
+	at oracle.jdbc.driver.PhysicalConnection.<init>(PhysicalConnection.java:454)
+	at oracle.jdbc.driver.T4CConnection.<init>(T4CConnection.java:165)
+	at oracle.jdbc.driver.T4CDriverExtension.getConnection(T4CDriverExtension.java:35)
+	at oracle.jdbc.driver.OracleDriver.connect(OracleDriver.java:802)
+	at java.sql.DriverManager.getConnection(Unknown Source)
+	at java.sql.DriverManager.getConnection(Unknown Source)
+	at EIPSDRLogger.main(EIPSDRLogger.java:71)
+[20-04-2017 21:33:57] [INFO] - This is info : mkyong
+[20-04-2017 21:33:57] [WARN] - This is warn : mkyong
+[20-04-2017 21:33:57] [ERROR] - This is error : mkyong
+[20-04-2017 21:33:57] [FATAL] - This is fatal : mkyong
+[20-04-2017 21:33:58] [ERROR] - Sorry SQL error, something wrong!
+java.sql.SQLSyntaxErrorException: ORA-00933: SQL command not properly ended
+
+	at oracle.jdbc.driver.T4CTTIoer.processError(T4CTTIoer.java:450)
+	at oracle.jdbc.driver.T4CTTIoer.processError(T4CTTIoer.java:399)
+	at oracle.jdbc.driver.T4C8Oall.processError(T4C8Oall.java:1059)
+	at oracle.jdbc.driver.T4CTTIfun.receive(T4CTTIfun.java:522)
+	at oracle.jdbc.driver.T4CTTIfun.doRPC(T4CTTIfun.java:257)
+	at oracle.jdbc.driver.T4C8Oall.doOALL(T4C8Oall.java:587)
+	at oracle.jdbc.driver.T4CStatement.doOall8(T4CStatement.java:210)
+	at oracle.jdbc.driver.T4CStatement.doOall8(T4CStatement.java:30)
+	at oracle.jdbc.driver.T4CStatement.executeForRows(T4CStatement.java:931)
+	at oracle.jdbc.driver.OracleStatement.doExecuteWithTimeout(OracleStatement.java:1150)
+	at oracle.jdbc.driver.OracleStatement.executeUpdateInternal(OracleStatement.java:1707)
+	at oracle.jdbc.driver.OracleStatement.executeUpdate(OracleStatement.java:1670)
+	at oracle.jdbc.driver.OracleStatementWrapper.executeUpdate(OracleStatementWrapper.java:310)
+	at EIPSDRLogger.main(EIPSDRLogger.java:88)
+[20-04-2017 21:35:52] [INFO] - This is info : mkyong
+[20-04-2017 21:35:52] [WARN] - This is warn : mkyong
+[20-04-2017 21:35:52] [ERROR] - This is error : mkyong
+[20-04-2017 21:35:52] [FATAL] - This is fatal : mkyong
+[21-04-2017 14:23:25] [INFO] - This is info : mkyong
+[21-04-2017 14:23:25] [WARN] - This is warn : mkyong
+[21-04-2017 14:23:25] [ERROR] - This is error : mkyong
+[21-04-2017 14:23:25] [FATAL] - This is fatal : mkyong
+[21-04-2017 14:23:26] [ERROR] - Sorry SQL error, something wrong!
+java.sql.SQLException: ORA-00933: SQL command not properly ended
+
+	at oracle.jdbc.driver.DatabaseError.throwSqlException(DatabaseError.java:113)
+	at oracle.jdbc.driver.T4CTTIoer.processError(T4CTTIoer.java:331)
+	at oracle.jdbc.driver.T4CTTIoer.processError(T4CTTIoer.java:288)
+	at oracle.jdbc.driver.T4C8Oall.receive(T4C8Oall.java:754)
+	at oracle.jdbc.driver.T4CStatement.doOall8(T4CStatement.java:210)
+	at oracle.jdbc.driver.T4CStatement.executeForRows(T4CStatement.java:963)
+	at oracle.jdbc.driver.OracleStatement.doExecuteWithTimeout(OracleStatement.java:1192)
+	at oracle.jdbc.driver.OracleStatement.executeUpdateInternal(OracleStatement.java:1662)
+	at oracle.jdbc.driver.OracleStatement.executeUpdate(OracleStatement.java:1631)
+	at EIPSDRLogger.main(EIPSDRLogger.java:88)
+[21-04-2017 14:48:33] [INFO] - This is info : mkyong
+[21-04-2017 14:48:33] [WARN] - This is warn : mkyong
+[21-04-2017 14:48:33] [ERROR] - This is error : mkyong
+[21-04-2017 14:48:33] [FATAL] - This is fatal : mkyong
+[21-04-2017 14:48:33] [ERROR] - Sorry SQL error, something wrong!
+java.sql.SQLException: ORA-00933: SQL command not properly ended
+
+	at oracle.jdbc.driver.DatabaseError.throwSqlException(DatabaseError.java:113)
+	at oracle.jdbc.driver.T4CTTIoer.processError(T4CTTIoer.java:331)
+	at oracle.jdbc.driver.T4CTTIoer.processError(T4CTTIoer.java:288)
+	at oracle.jdbc.driver.T4C8Oall.receive(T4C8Oall.java:754)
+	at oracle.jdbc.driver.T4CStatement.doOall8(T4CStatement.java:210)
+	at oracle.jdbc.driver.T4CStatement.executeForRows(T4CStatement.java:963)
+	at oracle.jdbc.driver.OracleStatement.doExecuteWithTimeout(OracleStatement.java:1192)
+	at oracle.jdbc.driver.OracleStatement.executeUpdateInternal(OracleStatement.java:1662)
+	at oracle.jdbc.driver.OracleStatement.executeUpdate(OracleStatement.java:1631)
+	at EIPSDRLogger.main(EIPSDRLogger.java:88)
+[21-04-2017 14:51:18] [INFO] - This is info : mkyong
+[21-04-2017 14:51:18] [WARN] - This is warn : mkyong
+[21-04-2017 14:51:18] [ERROR] - This is error : mkyong
+[21-04-2017 14:51:18] [FATAL] - This is fatal : mkyong
+[21-04-2017 14:51:20] [ERROR] - Sorry SQL error, something wrong!
+java.sql.SQLSyntaxErrorException: ORA-00936: missing expression
+
+	at oracle.jdbc.driver.T4CTTIoer.processError(T4CTTIoer.java:450)
+	at oracle.jdbc.driver.T4CTTIoer.processError(T4CTTIoer.java:399)
+	at oracle.jdbc.driver.T4C8Oall.processError(T4C8Oall.java:1059)
+	at oracle.jdbc.driver.T4CTTIfun.receive(T4CTTIfun.java:522)
+	at oracle.jdbc.driver.T4CTTIfun.doRPC(T4CTTIfun.java:257)
+	at oracle.jdbc.driver.T4C8Oall.doOALL(T4C8Oall.java:587)
+	at oracle.jdbc.driver.T4CStatement.doOall8(T4CStatement.java:210)
+	at oracle.jdbc.driver.T4CStatement.doOall8(T4CStatement.java:30)
+	at oracle.jdbc.driver.T4CStatement.executeForRows(T4CStatement.java:931)
+	at oracle.jdbc.driver.OracleStatement.doExecuteWithTimeout(OracleStatement.java:1150)
+	at oracle.jdbc.driver.OracleStatement.executeUpdateInternal(OracleStatement.java:1707)
+	at oracle.jdbc.driver.OracleStatement.executeUpdate(OracleStatement.java:1670)
+	at oracle.jdbc.driver.OracleStatementWrapper.executeUpdate(OracleStatementWrapper.java:310)
+	at EIPSDRLogger.main(EIPSDRLogger.java:88)
+[21-04-2017 14:52:16] [INFO] - This is info : mkyong
+[21-04-2017 14:52:16] [WARN] - This is warn : mkyong
+[21-04-2017 14:52:16] [ERROR] - This is error : mkyong
+[21-04-2017 14:52:16] [FATAL] - This is fatal : mkyong
+[21-04-2017 14:52:18] [ERROR] - Sorry SQL error, something wrong!
+java.sql.SQLSyntaxErrorException: ORA-01031: insufficient privileges
+
+	at oracle.jdbc.driver.T4CTTIoer.processError(T4CTTIoer.java:450)
+	at oracle.jdbc.driver.T4CTTIoer.processError(T4CTTIoer.java:399)
+	at oracle.jdbc.driver.T4C8Oall.processError(T4C8Oall.java:1059)
+	at oracle.jdbc.driver.T4CTTIfun.receive(T4CTTIfun.java:522)
+	at oracle.jdbc.driver.T4CTTIfun.doRPC(T4CTTIfun.java:257)
+	at oracle.jdbc.driver.T4C8Oall.doOALL(T4C8Oall.java:587)
+	at oracle.jdbc.driver.T4CStatement.doOall8(T4CStatement.java:210)
+	at oracle.jdbc.driver.T4CStatement.doOall8(T4CStatement.java:30)
+	at oracle.jdbc.driver.T4CStatement.executeForRows(T4CStatement.java:931)
+	at oracle.jdbc.driver.OracleStatement.doExecuteWithTimeout(OracleStatement.java:1150)
+	at oracle.jdbc.driver.OracleStatement.executeUpdateInternal(OracleStatement.java:1707)
+	at oracle.jdbc.driver.OracleStatement.executeUpdate(OracleStatement.java:1670)
+	at oracle.jdbc.driver.OracleStatementWrapper.executeUpdate(OracleStatementWrapper.java:310)
+	at EIPSDRLogger.main(EIPSDRLogger.java:88)
+[21-04-2017 15:09:31] [INFO] - This is info : mkyong
+[21-04-2017 15:09:31] [WARN] - This is warn : mkyong
+[21-04-2017 15:09:31] [ERROR] - This is error : mkyong
+[21-04-2017 15:09:31] [FATAL] - This is fatal : mkyong
+[21-04-2017 15:09:33] [ERROR] - Sorry SQL error, something wrong!
+java.sql.SQLSyntaxErrorException: ORA-00917: missing comma
+
+	at oracle.jdbc.driver.T4CTTIoer.processError(T4CTTIoer.java:450)
+	at oracle.jdbc.driver.T4CTTIoer.processError(T4CTTIoer.java:399)
+	at oracle.jdbc.driver.T4C8Oall.processError(T4C8Oall.java:1059)
+	at oracle.jdbc.driver.T4CTTIfun.receive(T4CTTIfun.java:522)
+	at oracle.jdbc.driver.T4CTTIfun.doRPC(T4CTTIfun.java:257)
+	at oracle.jdbc.driver.T4C8Oall.doOALL(T4C8Oall.java:587)
+	at oracle.jdbc.driver.T4CStatement.doOall8(T4CStatement.java:210)
+	at oracle.jdbc.driver.T4CStatement.doOall8(T4CStatement.java:30)
+	at oracle.jdbc.driver.T4CStatement.executeForRows(T4CStatement.java:931)
+	at oracle.jdbc.driver.OracleStatement.doExecuteWithTimeout(OracleStatement.java:1150)
+	at oracle.jdbc.driver.OracleStatement.executeUpdateInternal(OracleStatement.java:1707)
+	at oracle.jdbc.driver.OracleStatement.executeUpdate(OracleStatement.java:1670)
+	at oracle.jdbc.driver.OracleStatementWrapper.executeUpdate(OracleStatementWrapper.java:310)
+	at EIPSDRLogger.main(EIPSDRLogger.java:88)
+[21-04-2017 15:10:03] [INFO] - This is info : mkyong
+[21-04-2017 15:10:03] [WARN] - This is warn : mkyong
+[21-04-2017 15:10:03] [ERROR] - This is error : mkyong
+[21-04-2017 15:10:03] [FATAL] - This is fatal : mkyong
+[21-04-2017 16:32:58] [INFO] - This is info : mkyong
+[21-04-2017 16:32:58] [WARN] - This is warn : mkyong
+[21-04-2017 16:32:58] [ERROR] - This is error : mkyong
+[21-04-2017 16:32:58] [FATAL] - This is fatal : mkyong
+[21-04-2017 16:32:59] [ERROR] - Sorry SQL error, something wrong!
+java.sql.SQLSyntaxErrorException: ORA-00917: missing comma
+
+	at oracle.jdbc.driver.T4CTTIoer.processError(T4CTTIoer.java:450)
+	at oracle.jdbc.driver.T4CTTIoer.processError(T4CTTIoer.java:399)
+	at oracle.jdbc.driver.T4C8Oall.processError(T4C8Oall.java:1059)
+	at oracle.jdbc.driver.T4CTTIfun.receive(T4CTTIfun.java:522)
+	at oracle.jdbc.driver.T4CTTIfun.doRPC(T4CTTIfun.java:257)
+	at oracle.jdbc.driver.T4C8Oall.doOALL(T4C8Oall.java:587)
+	at oracle.jdbc.driver.T4CStatement.doOall8(T4CStatement.java:210)
+	at oracle.jdbc.driver.T4CStatement.doOall8(T4CStatement.java:30)
+	at oracle.jdbc.driver.T4CStatement.executeForRows(T4CStatement.java:931)
+	at oracle.jdbc.driver.OracleStatement.doExecuteWithTimeout(OracleStatement.java:1150)
+	at oracle.jdbc.driver.OracleStatement.executeUpdateInternal(OracleStatement.java:1707)
+	at oracle.jdbc.driver.OracleStatement.executeUpdate(OracleStatement.java:1670)
+	at oracle.jdbc.driver.OracleStatementWrapper.executeUpdate(OracleStatementWrapper.java:310)
+	at EIPSDRLogger.main(EIPSDRLogger.java:88)
+[21-04-2017 16:33:49] [INFO] - This is info : mkyong
+[21-04-2017 16:33:49] [WARN] - This is warn : mkyong
+[21-04-2017 16:33:49] [ERROR] - This is error : mkyong
+[21-04-2017 16:33:49] [FATAL] - This is fatal : mkyong
+[21-04-2017 20:23:58] [INFO] - This is info : mkyong
+[21-04-2017 20:23:58] [WARN] - This is warn : mkyong
+[21-04-2017 20:23:58] [ERROR] - This is error : mkyong
+[21-04-2017 20:23:58] [FATAL] - This is fatal : mkyong
+[24-04-2017 15:06:40] [ERROR] - Sorry SQL error, something wrong!
+java.sql.SQLSyntaxErrorException: ORA-00936: missing expression
+
+	at oracle.jdbc.driver.T4CTTIoer.processError(T4CTTIoer.java:450)
+	at oracle.jdbc.driver.T4CTTIoer.processError(T4CTTIoer.java:399)
+	at oracle.jdbc.driver.T4C8Oall.processError(T4C8Oall.java:1059)
+	at oracle.jdbc.driver.T4CTTIfun.receive(T4CTTIfun.java:522)
+	at oracle.jdbc.driver.T4CTTIfun.doRPC(T4CTTIfun.java:257)
+	at oracle.jdbc.driver.T4C8Oall.doOALL(T4C8Oall.java:587)
+	at oracle.jdbc.driver.T4CStatement.doOall8(T4CStatement.java:210)
+	at oracle.jdbc.driver.T4CStatement.doOall8(T4CStatement.java:30)
+	at oracle.jdbc.driver.T4CStatement.executeForRows(T4CStatement.java:931)
+	at oracle.jdbc.driver.OracleStatement.doExecuteWithTimeout(OracleStatement.java:1150)
+	at oracle.jdbc.driver.OracleStatement.executeUpdateInternal(OracleStatement.java:1707)
+	at oracle.jdbc.driver.OracleStatement.executeUpdate(OracleStatement.java:1670)
+	at oracle.jdbc.driver.OracleStatementWrapper.executeUpdate(OracleStatementWrapper.java:310)
+	at EIPSDRLogger.main(EIPSDRLogger.java:93)
