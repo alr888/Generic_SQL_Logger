@@ -1,4 +1,4 @@
-"# Generic_SQL_Logger" 
+### Generic_SQL_Logger ### 
 
 *****************
 
@@ -22,7 +22,7 @@ sqlstart=INSERT INTO  EIP_DW_DELIVERY_FILE  VALUES(
 values='MERI','DONE',to_timestamp('24-04-2017 14:45:36','DD-MM-YYYY HH24:MI:SS'),'EIP'
 sqlend=)  
 
-### Without parameters run it from the command line as: java SDRLogger.jar ### 
+### With parameters run it from the command line as: java SDRLogger.jar ### 
 
 ***************
 
